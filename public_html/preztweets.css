@@ -1,0 +1,1519 @@
+
+body {
+  padding-top: 80px;
+}
+
+ul  li{
+	display: inline-block;
+	padding-left:10px;
+}
+
+ul{
+	list-style: none;
+	padding: 0px;
+	text-align:left;
+}
+
+ul, p{
+	margin-bottom:0px;
+}
+
+.navbar{
+	margin:0 auto;
+}
+
+.navbar > .container .navbar-brand{
+	margin-left:0px;
+	
+}
+
+.navbar > .container{
+margin:0 auto;
+padding:0 auto;	
+}
+
+.container{
+	//position: relative;
+	margin: 0 auto;
+	//margin-top:5px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 12px;
+}
+.main{
+	box-shadow: 0px 1px 1px grey;	
+	height:600px;
+	/*overflow-x:hidden;*/
+}
+
+.pink-blue{
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f9d6d9, #d6f6f9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9d6d9, #d6f6f9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9d6d9, #d6f6f9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f9d6d9, #d6f6f9); /* Standard syntax */
+   	border-radius: 12px;
+   text-align:center;
+   padding:2px;
+	
+
+}
+
+ul.navbar-brand{
+	padding: 0px;
+	height: 40px;
+	
+}
+
+
+
+
+.navbar-brand > a > img{
+	display:inline;
+	float:left;
+	height:40px;
+	border-radius:10px;
+	
+}
+
+
+
+.main-menu{
+	color:green;
+	font-size:12px;
+}
+
+.main-menu-selected, .sub-menu-selected{
+	color:blue;
+	/*font-size:14px;*/
+	font-weight:bold;
+}
+
+.main-menu-selected > button, .main-menu > button{
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f9d6d9, #d6f6f9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9d6d9, #d6f6f9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9d6d9, #d6f6f9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d6f6f9, #f9d6d9); /* Standard syntax */
+   	border-radius:12px;
+   	
+	border:2px solid #f9d6d9;
+	width:160px;
+	font-size:20px;
+	height:40px;
+	margin:0 40px;
+	
+
+	
+}
+
+button > img{
+	height:30px;margin-left:10px;
+}
+
+
+.body-main{
+	/*z-index:10;*/
+	background-color:white;	
+	padding-top:0px;
+}	
+
+.body-main .row{ 
+	/*position: fixed;*/ 
+	background: white;
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+
+
+
+.row-no-padding {
+	padding: 0px;
+  	margin: 0px;
+}
+
+.form-group{
+	margin-bottom:0px;
+	float:left;
+}
+
+
+
+.sub-menu{
+	height:30px;
+	padding-left:5px;	
+	padding-top:7px;
+	margin-bottom:10px;
+	background-color:#fcf699;
+}
+
+.sub-menu > a{
+	padding:5px;
+}
+
+
+.col-sm-9{
+  padding-left:5px;
+}
+
+.sub-menu1{
+	height:30px;
+	padding-left:10px;
+	padding-top:7px;
+	margin-bottom:10px;
+	color:green;
+	font-size:12px;
+	background-color:#fcf699;
+	
+}
+/**************#Menu-List***************************/
+
+.pre-scrollable-members-list, .pre-scrollable-news-list{
+  max-height:510px;
+}
+
+.pre-scrollable-bills-list{
+  max-height:500px;
+  margin-top:20px;
+}
+
+.news-list img, .member-list img{ 
+  height:40px;
+  float:left;
+  padding-right:5px;
+  padding-top:5px;
+}
+
+.news-list li, .member-list li{
+  border-radius:5px;
+  padding:4px;
+  width:100%;
+  line-height:20px;
+  margin:1px 0px;
+}
+
+.republican{
+  border: solid red 2px;
+}
+.democrat{
+  border: solid blue 2px;
+}
+.independent{
+  border: solid green 2px;
+}
+.member-selected{
+	background:#fcf699;
+}
+.member-name{
+  color:green;
+  float:left;
+}
+.member-title{
+  font-size:9px;
+}
+
+
+
+.news-list div{
+  font-size:14px;
+  vertical-align:middle;
+  line-height:40px;
+}
+
+
+
+
+
+.bills-menu{
+  border-top:solid green 1px;
+  /*border-radius:5px;*/
+  width:100%;
+  padding:15px 5px 5px 10px;
+  font-size:12px;  
+  height:100%;
+}
+ 
+.bill-details{
+  font-size:10px;
+  /*width:100%;*/
+  
+}
+
+
+   
+   
+   
+   
+/*********************************Menu-List Results*******************************/
+.id-card{
+	margin:0px 10px;
+}
+
+.id-card li{
+	float:left;
+	padding-left:15px;
+	/*max-width:600px;*/
+}
+
+.id-card img{
+	float:left;
+	height:48px;
+}
+
+
+.id-card-details{
+	float:left;
+	padding-left:10px;
+	color:#337ab7;
+}
+
+.id-card-details > div:nth-child(1){
+    font-size:12px;
+ }
+ 
+.id-card-details > div:nth-child(n+2){
+    font-size:11px;
+ }
+  
+
+
+.id-card .pull-right{
+	font-size:9px;
+	line-height:12px;
+	padding-top:3px;
+	padding-right:15px;
+}
+
+.news-description{
+  padding:10px 30px;
+}
+
+.news-description img{
+   width:40px;
+   margin:0 auto;
+   display:block;
+  
+}
+
+
+
+.newest-tweet{
+	padding:0px 10px;
+	margin:20px 10px 0px 30px;
+	border-width:1px;
+	border-style:solid;
+	border-radius:10px;
+	height:100px;
+	color:green;
+	margin-bottom:30px;
+}
+
+.newest-tweet img{
+	height:80px;
+	margin: 0 auto;
+	padding-top:10px;	
+}
+
+.created_at{
+	font-size:10px
+}
+.tweets{
+	max-height:350px;	
+}	
+
+.tweets, .news-articles{
+	padding-left:30px;
+}	
+
+.tweet{
+	color:green;
+	padding-bottom:20px;
+	font-size:12px;
+}
+
+
+
+
+
+
+
+
+.keywords{
+	 overflow:hidden;
+	 border-width:1px;
+	 border-style:solid;border-radius:10px;
+	 font-size:10px;
+	 margin-bottom:10px;
+	 padding:3px;"
+}
+
+.keyword-news{
+	display:inline-block;
+	border:1px solid #cdcdcd;
+	border-radius:5px;
+	background-color:#f5f5f5;
+	margin-bottom:10px;"	
+}
+
+div.keyword-news{
+	width:100%;
+} 
+
+
+.keyword-news-article-icon{
+	float:right;
+	width:50px;
+	padding:10px;	
+}
+
+
+.keyword-news > a > img:nth-child(1){
+	float:left;
+	width:100px;
+	padding:10px;	
+}
+
+.news-articles{
+  max-height:520px;  
+}
+
+.pre-scrollable-news-articles{
+  max-height:460px;
+  
+}
+
+.news-articles > a > li {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: top;
+  float: none;
+  padding-top:10px;
+  color:green;
+  padding-left:10px;
+}
+
+.news-articles .news-icon img{
+  padding-bottom:10px;
+	float:right;
+	height:40px;
+}
+
+	
+
+form{
+  margin-right:20px;
+}
+
+.paginator{
+  padding-top:8px;
+}
+
+.pre-scrollable.bills{
+	margin-top:40px;
+	max-height:510px;	
+}
+
+.page-selected{
+	font-weight:bold;
+	background:#fcf699;
+}
+
+
+
+
+
+
+
+/*************************************xs < 544 *************************/
+@media (min-width:20px) and (max-width:544px) and (orientation:portrait){
+  ul.navbar-brand{
+    padding: 0px;
+    height: 30px;
+  }
+ .navbar-brand > a > img{
+    display:inline;
+    float:left;
+    height:30px;
+    border-radius:10px;
+  }
+  button > img{
+    height:15px;
+  }
+  
+  .main{
+ 
+    height:400px;
+    /*overflow-x:hidden;*/
+  }
+
+  .main-menu > button, .main-menu-selected > button{
+    width:70px;
+    line-height:14px;
+    font-size:8px;
+    margin:0px auto;
+    height:30px;
+  
+  }
+  .sub-menu{
+    display:block;
+    padding-left:5px;
+    margin:0px;
+  }
+  .sub-menu, .sub-menu1, .main-menu-selected, .sub-menu-selected{
+    font-size:9px;
+    padding-top:2px;
+  }
+  
+  .sub-menu > a{
+    padding:0px 5px 0px 0px;
+    display:inline-block;
+  }
+  
+  select{
+    width:83px;
+    height:20px;
+    font-size:9px;
+  }
+  /**************#Menu-List***************************/
+  .pre-scrollable-members-list, .pre-scrollable-news-list{
+    max-height:340px;
+  }
+  
+   .pre-scrollable-bills-list{
+     max-height:340px;
+     margin-top:5px;
+   }
+   
+  .member-list li{
+    border-radius:5px;
+    padding:5px 2px;
+    margin:1px 0px;
+    border-radius:5px;
+    line-height:12px;
+  }
+  
+  .member-list img{
+    height:0px;
+    display:none;
+  }
+  .member-title{
+    font-size:8px;
+  }
+  .member-name{
+    font-size:9px;
+  }
+  .member-title{
+    font-style:italic;
+  }
+  .republican{
+    border: solid red 1px;
+  }
+  .democrat{
+    border: solid blue 1px;
+  }
+  .independent{
+    border: solid green 1px;
+  }
+  
+  
+  
+  
+  .news-list li{
+    border:hidden;
+    padding:0px;
+  }
+  .news-list div{
+    display:none;
+  }
+  .news-list img{
+    height:40px;
+    width:40px;
+    
+    margin:0 15px;
+    
+   }
+   
+   
+  
+   .paginator{
+     display:inline;
+     font-size:10px;
+   }
+   .bills-menu{
+     border:solid orange 1px;
+     border-radius:5px;
+     font-size:8px;
+     padding:3px;
+   }
+   .bill-details{
+     font-size:8px;  
+   }
+  
+  /*********************************Menu-List Results*******************************/
+  .id-card{
+    margin:0px 5px;
+  }
+
+  .id-card img{
+    float:left;
+    height:35px;
+  }
+  
+  .id-card li{
+    padding-left:3px;
+   }
+   
+  .newest-tweet{
+    padding:0px 10px;
+    margin:5px 10px 10px 10px;
+    border-width:1px;
+    border-style:solid;
+    border-radius:10px;
+    height:100px;
+    color:green;
+  } 
+ 
+  .newest-tweet img{
+    display:none;
+  }
+  
+  
+  .id-card-desc{
+    display:none;
+    font-size:0px;
+    height:1px;
+    width:1px;
+  }
+  .id-card .pull-right{
+    font-size:8px;
+  }
+ 
+  .tweets, .news{
+    padding-left:3px;
+  } 
+  
+  .pre-scrollable.tweets{
+    max-height: 180px;
+    
+  }
+ .tweet{
+    font-size:9px;
+  }
+  
+  
+  p .news_item{
+    font-size:8px;
+  }
+  
+  .news-articles{
+    padding-left:5px;
+    max-height:340px;
+  }
+  
+  .news-articles p{
+    font-size:10px;
+  }
+  
+  .news-articles .news-icon img{
+    padding-bottom:0px;
+    float:right;
+    height:20px;
+  }
+  .news-description{
+    padding:5px 10px;
+    font-size:8px;
+  }
+
+  .news-description img{
+       width:30px;
+       margin:0 auto;
+       display:block;
+      
+    }
+ .active{
+    padding-left:0px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////////////////////// sm <768 //////////////////////////////////////////*/
+	
+@media screen and (min-width:20px) and (max-width:768px) and (orientation:landscape){
+   ul.navbar-brand{
+    padding: 0px;
+    height: 30px;
+  }
+ .navbar-brand > a > img{
+    display:inline;
+    float:left;
+    height:30px;
+    border-radius:10px;
+  }
+  button > img{
+    height:15px;
+  }
+  
+  .main{
+    
+    height:240px;
+    /*overflow-x:hidden;*/
+  }
+
+  .main-menu > button, .main-menu-selected > button{
+    width:70px;
+    line-height:14px;
+    font-size:8px;
+    margin:0px auto;
+    height:30px;
+  
+  }
+  .sub-menu{
+    display:block;
+    padding-left:5px;
+    margin:0px;
+  }
+  .sub-menu, .sub-menu1, .main-menu-selected, .sub-menu-selected{
+    font-size:9px;
+    padding-top:2px;
+  }
+  
+  .sub-menu > a{
+    padding:0px 5px 0px 0px;
+    display:inline-block;
+  }
+  
+  select{
+    width:83px;
+    height:20px;
+    font-size:9px;
+  }
+  /**************#Menu-List***************************/
+  .pre-scrollable-members-list, .pre-scrollable-news-list{
+    max-height:180px;
+  }
+  
+   .pre-scrollable-bills-list{
+     max-height:180px;
+     margin-top:5px;
+   }
+   
+  .member-list li{
+    border-radius:5px;
+    padding:5px 2px;
+    margin:1px 0px;
+    border-radius:5px;
+    line-height:12px;
+  }
+  
+  .member-list img{
+    height:0px;
+    display:none;
+  }
+  .member-title{
+    font-size:8px;
+  }
+  .member-name{
+    font-size:9px;
+  }
+  .member-title{
+    font-style:italic;
+  }
+  .republican{
+    border: solid red 1px;
+  }
+  .democrat{
+    border: solid blue 1px;
+  }
+  .independent{
+    border: solid green 1px;
+  }
+  
+  
+  
+  
+  .news-list li{
+    border:hidden;
+    padding:0px;
+  }
+  .news-list div{
+    font-size:8px;
+    line-height:20px;
+  }
+  
+  .news-list img{
+    height:40px;
+    width:40px;
+    
+    margin:0 5px;
+    
+   }
+   
+   
+  
+   .paginator{
+     display:inline;
+     font-size:10px;
+   }
+   .bills-menu{
+     border:solid orange 1px;
+     border-radius:5px;
+     font-size:8px;
+     padding:3px;
+   }
+   .bill-details{
+     font-size:8px;  
+   }
+  
+  /*********************************Menu-List Results*******************************/
+  .id-card{
+    margin:0px 5px;
+  }
+
+  .id-card img{
+    float:left;
+    height:35px;
+  }
+  
+  .id-card li{
+    padding-left:3px;
+   }
+   
+  .newest-tweet{
+    padding:0px 10px;
+    margin:5px 10px 10px 10px;
+    border-width:1px;
+    border-style:solid;
+    border-radius:10px;
+    height:80px;
+    color:green;
+  } 
+ 
+  .newest-tweet img{
+    display:none;
+  }
+  
+  
+  .id-card-desc{
+    display:none;
+    font-size:0px;
+    height:1px;
+    width:1px;
+  }
+  .id-card .pull-right{
+    font-size:8px;
+  }
+ 
+  .tweets, .news{
+    padding-left:3px;
+  } 
+  
+  .pre-scrollable.tweets{
+    max-height: 50px;
+    
+  }
+ .tweet{
+    font-size:9px;
+    margin-bottom: 5px;
+  }
+  
+  
+  p .news_item{
+    font-size:8px;
+  }
+  
+  .news-articles{
+    padding-left:5px;
+    max-height:200px;
+  }
+  
+  .news-articles p{
+    font-size:10px;
+  }
+  
+  .news-articles .news-icon img{
+    padding-bottom:0px;
+    float:right;
+    height:20px;
+  }
+  .news-description{
+    padding:5px 10px;
+    font-size:8px;
+  }
+
+  .news-description img{
+       width:30px;
+       margin:0 auto;
+       display:block;
+      
+    }
+ .active{
+    padding-left:0px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+/****************************** small 544 - 768 ***************************************/
+
+@media screen and (min-width:576px) and (max-width:768px) and (orientation:portrait){
+ 
+   ul.navbar-brand{
+    padding: 0px;
+    height: 30px;
+  }
+ .navbar-brand > a > img{
+    display:inline;
+    float:left;
+    height:30px;
+    border-radius:10px;
+  }
+  button > img{
+    height:15px;
+  }
+  
+  .main{
+   
+    height:730px;
+    /*overflow-x:hidden;*/
+  }
+
+  .main-menu > button, .main-menu-selected > button{
+    width:70px;
+    line-height:14px;
+    font-size:8px;
+    margin:0px auto;
+    height:30px;
+  
+  }
+  .sub-menu{
+    display:block;
+    padding-left:5px;
+    margin:0px;
+  }
+  .sub-menu, .sub-menu1, .main-menu-selected, .sub-menu-selected{
+    font-size:9px;
+    padding-top:2px;
+  }
+  
+  .sub-menu > a{
+    padding:0px 5px 0px 0px;
+    display:inline-block;
+  }
+  
+  select{
+    width:83px;
+    height:20px;
+    font-size:9px;
+  }
+  /**************#Menu-List***************************/
+  .pre-scrollable-members-list, .pre-scrollable-news-list{
+    max-height:660px;
+  }
+  
+   .pre-scrollable-bills-list{
+     max-height:650px;
+     margin-top:5px;
+   }
+   
+  .member-list li{
+    border-radius:5px;
+    padding:5px 2px;
+    margin:1px 0px;
+    border-radius:5px;
+    line-height:12px;
+  }
+  
+  .member-list img{
+    height:0px;
+    display:none;
+  }
+  .member-title{
+    font-size:8px;
+  }
+  .member-name{
+    font-size:9px;
+  }
+  .member-title{
+    font-style:italic;
+  }
+  .republican{
+    border: solid red 1px;
+  }
+  .democrat{
+    border: solid blue 1px;
+  }
+  .independent{
+    border: solid green 1px;
+  }
+  
+  
+  
+  
+  .news-list li{
+    border:hidden;
+    padding:0px;
+  }
+  .news-list div{
+    font-size:8px;
+    line-height:20px;
+  }
+  
+  .news-list img{
+    height:40px;
+    width:40px;
+    
+    margin:0 5px;
+    
+   }
+   
+   
+  
+   .paginator{
+     display:inline;
+     font-size:10px;
+   }
+   .bills-menu{
+     border:solid orange 1px;
+     border-radius:5px;
+     font-size:10px;
+     padding:3px;
+   }
+   .bill-details{
+     font-size:10px;  
+   }
+  
+  /*********************************Menu-List Results*******************************/
+  .id-card{
+    margin:0px 5px;
+  }
+
+  .id-card img{
+    float:left;
+    height:35px;
+  }
+  
+  .id-card li{
+    padding-left:3px;
+   }
+   
+  .newest-tweet{
+    padding:0px 10px;
+    margin:5px 10px 10px 10px;
+    border-width:1px;
+    border-style:solid;
+    border-radius:10px;
+    height:80px;
+    color:green;
+  } 
+ 
+  .newest-tweet img{
+    display:none;
+  }
+  
+  
+  .id-card-desc{
+    display:none;
+    font-size:0px;
+    height:1px;
+    width:1px;
+  }
+  .id-card .pull-right{
+    font-size:8px;
+  }
+ 
+  .tweets, .news{
+    padding-left:3px;
+  } 
+  
+  .pre-scrollable.tweets{
+    max-height: 500px;
+    
+  }
+ .tweet{
+    font-size:9px;
+    margin-bottom: 5px;
+  }
+  
+  
+  p .news_item{
+    font-size:8px;
+  }
+  
+  .news-articles{
+    padding-left:5px;
+    max-height:630px;
+  }
+  
+  .news-articles p{
+    font-size:10px;
+  }
+  
+  .news-articles .news-icon img{
+    padding-bottom:0px;
+    float:right;
+    height:20px;
+  }
+  .news-description{
+    padding:5px 10px;
+    font-size:8px;
+  }
+
+  .news-description img{
+       width:30px;
+       margin:0 auto;
+       display:block;
+      
+    }
+ .active{
+    padding-left:0px;
+  }
+  
+}
+
+
+
+/****************************** medium 768 - 992 ***************************************/
+
+@media screen and (min-width:768px) and (max-width:992px) and (orientation:landscape){
+ 
+   ul.navbar-brand{
+    padding: 0px;
+    height: 30px;
+  }
+ .navbar-brand > a > img{
+    display:inline;
+    float:left;
+    height:30px;
+    border-radius:10px;
+  }
+  button > img{
+    height:15px;
+  }
+  
+  .main{
+   
+    height:500px;
+    /*overflow-x:hidden;*/
+  }
+
+  .main-menu > button, .main-menu-selected > button{
+    width:70px;
+    line-height:14px;
+    font-size:8px;
+    margin:0px auto;
+    height:30px;
+  
+  }
+  .sub-menu{
+    display:block;
+    padding-left:5px;
+    margin:0px;
+  }
+  .sub-menu, .sub-menu1, .main-menu-selected, .sub-menu-selected{
+    font-size:9px;
+    padding-top:2px;
+  }
+  
+  .sub-menu > a{
+    padding:0px 5px 0px 0px;
+    display:inline-block;
+  }
+  
+  select{
+    width:83px;
+    height:20px;
+    font-size:9px;
+  }
+  /**************#Menu-List***************************/
+  .pre-scrollable-members-list, .pre-scrollable-news-list{
+    max-height:450px;
+  }
+  
+   .pre-scrollable-bills-list{
+     max-height:450px;
+     margin-top:5px;
+   }
+   
+  .member-list li{
+    border-radius:5px;
+    padding:5px 2px;
+    margin:1px 0px;
+    border-radius:5px;
+    line-height:12px;
+  }
+  
+  .member-list img{
+    height:0px;
+    display:none;
+  }
+  .member-title{
+    font-size:8px;
+  }
+  .member-name{
+    font-size:9px;
+  }
+  .member-title{
+    font-style:italic;
+  }
+  .republican{
+    border: solid red 1px;
+  }
+  .democrat{
+    border: solid blue 1px;
+  }
+  .independent{
+    border: solid green 1px;
+  }
+  
+  
+  
+  
+  .news-list li{
+    border:hidden;
+    padding:0px;
+  }
+  .news-list div{
+    font-size:8px;
+    line-height:20px;
+  }
+  
+  .news-list img{
+    height:40px;
+    width:40px;
+    
+    margin:0 5px;
+    
+   }
+   
+   
+  
+   .paginator{
+     display:inline;
+     font-size:10px;
+   }
+   .bills-menu{
+     border:solid orange 1px;
+     border-radius:5px;
+     font-size:10px;
+     padding:3px;
+   }
+   .bill-details{
+     font-size:10px;  
+   }
+  
+  /*********************************Menu-List Results*******************************/
+  .id-card{
+    margin:0px 5px;
+  }
+
+  .id-card img{
+    float:left;
+    height:35px;
+  }
+  
+  .id-card li{
+    padding-left:3px;
+   }
+   
+  .newest-tweet{
+    padding:0px 10px;
+    margin:5px 10px 10px 10px;
+    border-width:1px;
+    border-style:solid;
+    border-radius:10px;
+    height:80px;
+    color:green;
+  } 
+ 
+  .newest-tweet img{
+    display:none;
+  }
+  
+  
+  .id-card-desc{
+    display:none;
+    font-size:0px;
+    height:1px;
+    width:1px;
+  }
+  .id-card .pull-right{
+    font-size:8px;
+  }
+ 
+  .tweets, .news{
+    padding-left:3px;
+  } 
+  
+  .pre-scrollable.tweets{
+    max-height: 300px;
+    
+  }
+ .tweet{
+    font-size:9px;
+    margin-bottom: 5px;
+  }
+  
+  
+  p .news_item{
+    font-size:8px;
+  }
+  
+  .news-articles{
+    padding-left:5px;
+    max-height:630px;
+  }
+  
+  .news-articles p{
+    font-size:10px;
+  }
+  
+  .news-articles .news-icon img{
+    padding-bottom:0px;
+    float:right;
+    height:20px;
+  }
+  .news-description{
+    padding:5px 10px;
+    font-size:8px;
+  }
+
+  .news-description img{
+       width:30px;
+       margin:0 auto;
+       display:block;
+      
+    }
+ .active{
+    padding-left:0px;
+  }
+  
+}
+
+
+	
+/****************************** medium 768 - 992 ***************************************/
+
+@media screen and (min-width:768px) and (max-width:992px) and (orientation:portrait){
+
+ul.navbar-brand{
+    padding: 0px;
+    height: 30px;
+  }
+ .navbar-brand > a > img{
+    display:inline;
+    float:left;
+    height:30px;
+    border-radius:10px;
+  }
+  button > img{
+    height:15px;
+  }
+  
+  .main{
+   
+    height:930px;
+    /*overflow-x:hidden;*/
+  }
+  
+   .main-menu > button, .main-menu-selected > button{
+    width:70px;
+    line-height:14px;
+    font-size:8px;
+    margin:0px auto;
+    height:30px;
+  
+  }
+  
+  .pre-scrollable-members-list, .pre-scrollable-news-list{
+    max-height:850px;
+  }
+  
+   .pre-scrollable-bills-list{
+     max-height:850px;
+     margin-top:5px;
+   }
+  
+  .pre-scrollable.tweets{
+    max-height: 700px;
+    
+  }
+  .news-articles{
+    padding-left:5px;
+    max-height:850px;
+  }
+  
+}
+
+
+
+.col-md-1{
+padding:0px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.date_menu_fixed{
+	width: 1200px;
+	position:fixed;
+	margin-top: 0px;
+	border-radius: 12px;
+}
+
+.date_menu_container{
+	border-radius: 12px;
+	width: 1200px;
+	margin: 0 auto;		
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.print_tweets{
+	padding-left:50px;
+	margin: 0px 200px;
+}
+
+
+
+.marquee{
+ /*height: 50px;  */
+ overflow: hidden;
+ /*position: relative;*/
+ white-space:nowrap;
+ color:#337ab7;
+ font-size:10px
+}
+
+
+
+
+ .tickercontainer{
+ 	
+ 	height:20px;
+ }
+
+ 
+
+
+
+
+
+
+
+
+/*.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    /*visibility: hidden;*/
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.marquee p{
+	text-align:right;
+}
+
+.h-scroll {
+    height: 90px; /* %-height of the viewport */
+    position: fixed;
+    overflow-y: scroll;
+}
+
+
+.gray {
+  height: 100px;
+  width: 100px;
+  background: #eee;
+  float: left;
+}
+
+.orange {
+  height: 100px;
+  width: 150px;
+  background: #fdcb05;
+  float: left;
+}
+/*.nav > li >a{
+	padding:0px;
+}*/
+
+/*.cabinet_member_list_name{
+	color:green;
+	font-size:14px;
+	text-shadow: 1px 1px white;
+}
+
+.cabinet_member_list:hover{
+	background-color:yellow;	
+}
+
+.cabinet_member_list_name_selected{
+	color:blue;
+	
+	font-weight:bold;
+	text-shadow: 1px 1px white;
+	background:yellow;
+}*/
+
+
+/*.id-card > span{
+	list-style:none;
+	padding-left:30px;	
+}*/
+
+/*
+.keyword-news > a > img:last-child{
+	float:left;
+	width:10px;
+	padding:10px;	
+}*/

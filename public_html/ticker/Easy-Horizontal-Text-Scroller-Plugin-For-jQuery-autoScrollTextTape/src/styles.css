@@ -1,0 +1,10 @@
+.autoscroll-tape__wrapper {
+  overflow: hidden;
+}
+.autoscroll-tape__tape {
+  position: relative;
+  left: 0;
+  display: inline-block;
+  white-space: nowrap;
+  will-change: left;
+}
